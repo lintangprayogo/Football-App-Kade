@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".main.ui.activity.LeagueActivity">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <ProgressBar
+            android:id="@+id/load_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/logo"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/badge"
+            app:layout_constraintStart_toStartOf="@+id/badge"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/badge"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/english_league"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/badge" />
+
+
+
+        <TextView
+            android:id="@+id/trophy_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/trophy"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="@+id/trophy"
+            app:layout_constraintStart_toStartOf="@+id/trophy"
+            app:layout_constraintTop_toBottomOf="@+id/badge" />
+
+        <ImageView
+            android:id="@+id/trophy"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/english_league"
+            app:layout_constraintEnd_toEndOf="@+id/badge"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trophy_title"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@string/trophy" />
+
+        <TextView
+            android:id="@+id/socialmedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/social_media"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintStart_toEndOf="@+id/badge"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp" />
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_facebook"
+            android:contentDescription="@string/facebook"
+            app:layout_constraintStart_toStartOf="@+id/socialmedia"
+            app:layout_constraintTop_toBottomOf="@+id/socialmedia" />
+        <ImageView
+            android:id="@+id/youtube"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_youtube"
+            android:contentDescription="@string/youtube"
+            app:layout_constraintStart_toEndOf="@id/facebook"
+            app:layout_constraintTop_toBottomOf="@+id/socialmedia"
+            android:layout_marginStart="10dp" />
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_twitter"
+            android:contentDescription="@string/twitter"
+            app:layout_constraintStart_toEndOf="@id/youtube"
+            app:layout_constraintTop_toBottomOf="@+id/socialmedia"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/division_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/country_title"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintStart_toStartOf="@+id/socialmedia"
+            app:layout_constraintTop_toBottomOf="@+id/youtube" />
+        <TextView
+            android:id="@+id/division_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/country_content"
+            app:layout_constraintStart_toStartOf="@+id/socialmedia"
+            app:layout_constraintTop_toBottomOf="@+id/division_title" />
+        <TextView
+            android:id="@+id/country_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/begin_title"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintStart_toStartOf="@+id/socialmedia"
+            app:layout_constraintTop_toBottomOf="@+id/division_content" />
+        <TextView
+            android:id="@+id/country_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/country_content"
+            app:layout_constraintStart_toStartOf="@+id/socialmedia"
+            app:layout_constraintTop_toBottomOf="@+id/country_title" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="trophy,trophy_title,logo,badge,facebook,twitter,youtube,socialmedia,division_content,division_title,country_title,country_content"
+            android:visibility="invisible"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        app:tabIndicatorColor="@color/white"
+        android:background="@color/colorPrimary"
+        app:tabTextColor="@color/white"
+     />
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        />
+
+</LinearLayout>

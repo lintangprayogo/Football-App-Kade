@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Football App</string>
+    <string name="badge">badge</string>
+    <string name="leaguename">English Premier League</string>
+    <string name="overview_content">Serie A, also called Serie A TIM due to sponsorship by Telecom Italia, is a professional league competition for football clubs located at the top of the Italian football league system and has been operating for over eighty years since the 1929–30 season. It had been organized by Lega Calcio until 2010, but a new league, the Lega Serie A, was created for the 2010–11 season. Serie A is regarded as one of the best football leagues in the world. Serie A was considered the best league in the world in the \'90s, and has produced the highest number of European Cup finalists: Italian clubs have reached the final of the competition on a record twenty-six different occasions, winning the title twelve times. Serie A is ranked 4th among European leagues according to UEFA\'s league coefficient behind the Spanish La Liga, English Premier League and German Bundesliga, which is based on the performance of Italian clubs in the Champions League and the Europa League. It also ranked 5th in world according to the first trends of the 2011 IFFHS rating.In its current format, the Italian Football Championship was revised from having regional and interregional rounds, to a single-tier league from the 1929–30 season onwards. The championship titles won prior to 1929 are officially recognised by FIGC with the same weighting as titles that were subsequently awarded. However, the 1945–46 season, when the league was played over two geographical groups due to the ravages of WWII, is not statistically considered, even if its title is fully official. The league hosts three of the world\'s most famous clubs as Juventus, Milan and Internazionale, all founding members of the G-14, a group which represented the largest and most prestigious European football clubs; Serie A was the only league to produce three founding members. More players have won the coveted Ballon d\'Or award while playing at a Serie A club than any other league in the world. Ahead of Spain\'s La Liga. Although the actual number of Ballon d\'Or won by players in these two leagues is equal at 18 each. Including the FIFA Ballon d\'Or. Milan is the second club with the most official international titles in the world (18). Juventus, Italy\'s most successful club of the 20th century and the most successful Italian team, is tied for fourth in Europe and eighth in the world in the same ranking. The club is the only one in the world to have won all possible official continental competitions and the world title. Internazionale, following their achievements in the 2009–10 season, became the first Italian team to have achieved The Treble.</string>
+    <string name="overview">Overview :</string>
+    <string name="logo">Logo</string>
+    <string name="trophy">Trophy</string>
+
+    <string-array name="leagues_name">
+        <item>English Premier League</item>
+        <item>English League 1</item>
+        <item>Major League Soccer</item>
+        <item>Australian A-League</item>
+        <item>Serie-A</item>
+        <item>La-Liga</item>
+        <item>Ligue 1</item>
+        <item>Bundesliga</item>
+        <item>Scotish Premier League</item>
+        <item>Primeira Liga</item>
+    </string-array>
+
+    <array name="leagues_emblem">
+        <item>@drawable/english_premier_league</item>
+        <item>@drawable/english_league</item>
+        <item>@drawable/american_mayor_league</item>
+        <item>@drawable/australian_a_league</item>
+        <item>@drawable/italian_serie_a</item>
+        <item>@drawable/spanish_la_liga</item>
+        <item>@drawable/french_ligue_1</item>
+        <item>@drawable/german_bundesliga</item>
+        <item>@drawable/scotish_premier_league</item>
+        <item>@drawable/portugeuese_premiera_liga</item>
+    </array>
+
+    <string-array name="leagues_id">
+        <item>4328</item>
+        <item>4396</item>
+        <item>4346</item>
+        <item>4356</item>
+        <item>4332</item>
+        <item>4335</item>
+        <item>4334</item>
+        <item>4331</item>
+        <item>4330</item>
+        <item>4344</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Barclona FC</string>
+    <string name="away">Bayern Muchen FC</string>
+    <string name="score">10</string>
+    <string name="vs">VS</string>
+    <string name="date">25,Desember 2019 08:00</string>
+    <string name="social_media">Social Media :</string>
+    <string name="twitter">twitter</string>
+    <string name="youtube">youtube</string>
+    <string name="facebook">facebook</string>
+    <string name="country_content">England</string>
+    <string name="country_title">Country :</string>
+    <string name="begin_title">Begin From :</string>
+    <string name="empty">There Is No Match</string>
+    <string name="search">Search</string>
+    <string name="close">close</string>
+    <string name="back">back</string>
+    <string name="goal_details">69\':Own Jonjo Shelvey;61\': Adam Lallana;51\': Adam Lallana;33\': Alberto Moreno;</string>
+    <string name="goalers">69\':Own Jonjo Shelvey;61\': Adam Lallana;51\': Adam Lallana;33\': Alberto Moreno;</string>
+    <string name="goals">Goals</string>
+    <string name="shots">Shots</string>
+    <string name="defense">Defense</string>
+    <string name="keppers">Keppers</string>
+    <string name="midfield">Midfield</string>
+    <string name="forward">Forward</string>
+    <string name="substitutes">Substitutes</string>
+    <string name="line_up">Lineup</string>
+    <string name="goal_shost"><![CDATA[Goals & Shots]]></string>
+    <string name="card">Cards</string>
+    <string name="yelow_cards">Yelow Cards</string>
+    <string name="red">Red Cards</string>
+</resources>
